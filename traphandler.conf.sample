@@ -1,0 +1,9 @@
+<connect_info>
+   host  mongodb://10.0.0.1:27017,10.0.0.2:27017
+   auto_connect 0
+   username    mongouser
+   password    mongopass
+   db_name     mongodb
+   find_master 1
+</connect_info>
+

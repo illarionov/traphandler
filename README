@@ -1,0 +1,3 @@
+#Traphandler - обработчик MAC-NOTIFICATION trap'ов и складывалка их в
+#mongodb. Запускается из snmptrapd/
+

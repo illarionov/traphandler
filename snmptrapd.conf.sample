@@ -1,0 +1,9 @@
+snmpTrapdAddr  udp:0.0.0.0:162
+
+authCommunity log,execute public
+
+logOption f /var/log/snmptraps.log
+outputOption ntxq
+
+perl do "/opt/traphandler.pl";
+
